@@ -4,7 +4,7 @@
     e.preventDefault();
     setTimeout(function() { 
       $(".modal-box").show();
-  }, 5000);
+  }, 3000);
   });
   $("#reseter").click(function(e){
     e.preventDefault();

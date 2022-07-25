@@ -1,0 +1,40 @@
+@media screen and (max-width: 375px) {
+    .orderBtn {
+        transform: translate(-49%, 0);
+        left: 56%;
+    }
+    .employBtn {
+        transform: translate(-49%, 0);
+        left: 56%;
+    }
+    .automatic-order {
+        width: 100%;
+        transform: translate(-49%, 0);
+        top: 487px;
+        left: 55%;
+        font-size: 25px;
+    }
+    .Modal {
+        transform: translate(-52%, -50%);
+        left: 58%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .orderBtn {
+        left: 65%;
+    }
+    .employBtn {
+        left: 66%;
+    }
+    .automatic-order {
+        width: 100%;
+        transform: translate(-39%, 0);
+        top: 488px;
+        left: 55%;
+        font-size: 20px;
+    }
+    .Modal {
+        transform: translate(-49%, -35%);
+        left: 58%;
+    }
+}

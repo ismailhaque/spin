@@ -82,11 +82,12 @@ button {
   text-decoration: none;
   text-align: center;
   display: block;
+  width: 100%;
   position: absolute;
   transform: translate(-50%, 0);
-  top: 488px;
+  top: 487px;
   left: 50%;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .orderBtn {
