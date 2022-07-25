@@ -126,6 +126,12 @@ button {
   align-items: center;
   align-content: center;
 }
+.modal-box{
+  display: none;
+}
+.modal-box.active{
+  display: block;
+}
 .Modal-InText {
   text-align: center;
   font-weight: 300;

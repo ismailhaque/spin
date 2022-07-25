@@ -1,4 +1,15 @@
 (function () {
+
+  $(".automatic-order").click(function(){
+    $(".modal-box").show(3000);
+  });
+  $("#reseter").click(function(){
+    $(".modal-box").hide(1000);
+  });
+
+
+
+
     "use strict";
   
     const items = [
@@ -99,8 +110,10 @@
     }
   
     init();
+
+  
 })();
 
-// jQuery code
+
 
 
