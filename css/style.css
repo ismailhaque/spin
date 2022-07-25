@@ -6,7 +6,6 @@
 html,
 body {
   max-width: 425px;
-  height: 100vh;
   margin: 0 auto;
   border: 0;
   padding: 0;
@@ -84,7 +83,7 @@ button {
   width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 100%;
+  top: 500px;
   left: 50%;
   font-size: 20px;
 }
@@ -94,7 +93,7 @@ button {
   text-align: center;
   display: block;
   position: absolute;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0%);
   top: 94px;
   left: 50%;
   font-size: 25px;
@@ -151,4 +150,16 @@ button {
 }
 .Btn-Right{
     background: rgba(14, 255, 110, 0.85);
+}
+.flex-table{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-table p{
+  color: #6a6a6a;
+}
+.result h2{
+  color: #3a3a3a;
+  font-size: 30px;
+  padding: 10px 0;
 }

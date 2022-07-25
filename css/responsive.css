@@ -1,29 +1,41 @@
 @media screen and (max-width: 400px) {
     .orderBtn {
-        left: 53%;
+        top: 88px;
+        left: 50%;
     }
     .employBtn {
-        left: 53%;
+        left: 50%;
+        top: 160px;
     }
     .automatic-order {
         width: 100%;
-        transform: translate(-39%, 0);
-        top: 488px;
-        left: 42%;
+        transform: translate(-50%, 0);
+        top: 458px;
+        left: 50%;
         font-size: 20px;
+    }
+
+    .door {
+        width: 50px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: 1ex;
+        margin: 20px;
+        margin-top: -350px;
+        padding-left: 2px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .orderBtn {
-        transform: translate(-56%, -50%);
-        left: 51%;
-        top: 19%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 95px;
     }
     .employBtn {
-        transform: translate(-49%, -50%);
+        transform: translate(-50%, -50%);
         left: 50%;
-        top: 30%;
+        top: 160px;
     }
     .door {
         margin: 18px;
@@ -33,7 +45,7 @@
     .automatic-order {
         width: 100%;
         transform: translate(-50%, -50%);
-        top: 88%;
+        top: 440px;
         left: 50%;
         font-size: 20px;
     }
@@ -42,7 +54,12 @@
     .orderBtn {
         transform: translate(-50%, -50%);
         left: 50%;
-        top: 16%;
+        top: 81px;
+    }
+    .employBtn {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 140px;
     }
     .door {
         margin: 11px;
@@ -52,7 +69,7 @@
     .automatic-order {
         width: 100%;
         transform: translate(-50%, -50%);
-        top: 75%;
+        top: 376px;
         left: 50%;
         font-size: 16px;
     }
