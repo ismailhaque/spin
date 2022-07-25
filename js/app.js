@@ -1,10 +1,14 @@
 (function () {
 
-  $(".automatic-order").click(function(){
-    $(".modal-box").show(3000);
+  $(".automatic-order").click(function(e){
+    e.preventDefault();
+    setTimeout(function() { 
+      $(".modal-box").show();
+  }, 5000);
   });
-  $("#reseter").click(function(){
-    $(".modal-box").hide(1000);
+  $("#reseter").click(function(e){
+    e.preventDefault();
+    $(".modal-box").hide("slow");
   });
 
 
