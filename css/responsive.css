@@ -12,49 +12,48 @@
         left: 42%;
         font-size: 20px;
     }
-    .Modal {
-        transform: translate(-49%, -35%);
-        left: 52%;
-    }
 }
 
 @media screen and (max-width: 375px) {
     .orderBtn {
-        transform: translate(-49%, 0);
-        left: 56%;
+        transform: translate(-56%, -50%);
+        left: 51%;
+        top: 19%;
     }
     .employBtn {
-        transform: translate(-49%, 0);
-        left: 56%;
+        transform: translate(-49%, -50%);
+        left: 50%;
+        top: 30%;
+    }
+    .door {
+        margin: 18px;
+        margin-top: -335px;
+        padding-left: 2px;
     }
     .automatic-order {
         width: 100%;
-        transform: translate(-49%, 0);
-        top: 487px;
-        left: 55%;
-        font-size: 25px;
-    }
-    .Modal {
-        transform: translate(-52%, -50%);
-        left: 58%;
+        transform: translate(-50%, -50%);
+        top: 88%;
+        left: 50%;
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 320px) {
     .orderBtn {
-        left: 65%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 16%;
     }
-    .employBtn {
-        left: 66%;
+    .door {
+        margin: 11px;
+        margin-top: -288px;
+        padding-left: 2px;
     }
     .automatic-order {
         width: 100%;
-        transform: translate(-39%, 0);
-        top: 488px;
-        left: 55%;
-        font-size: 20px;
-    }
-    .Modal {
-        transform: translate(-49%, -35%);
-        left: 58%;
+        transform: translate(-50%, -50%);
+        top: 75%;
+        left: 50%;
+        font-size: 16px;
     }
 }
